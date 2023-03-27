@@ -1,0 +1,33 @@
+* {
+    /* outline: 1px dotted rgba(133, 68, 120, 0.412); */
+}
+
+/* header */
+
+
+
+/* jumper */
+
+.jumper {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    opacity: 0.7;
+}
+
+.date {
+    padding: 0;
+    margin: 0;
+}
+
+.card__image {
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+    transition: 1s;
+}
+
+.card__image:hover {
+    object-position: bottom;
+    transition: 1s;
+}
